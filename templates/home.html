@@ -1,8 +1,8 @@
 <h1>Vice Versa</h1>
-<textarea id="w3review" name="w3review" rows="10" cols="40">
-</textarea>
-<br>
-<br>
-<input type="submit" value="Reverse!">
-<br>
-<p>Helo world</p>
+<form action="{% url 'reverse' %}">
+	<textarea id="usertext" name="usertext" rows="10" cols="40">
+	</textarea>
+	<br>
+	<br>
+	<input type="submit" value="Reverse!">
+</form>
